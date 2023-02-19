@@ -1,6 +1,6 @@
 const heading1 = React.createElement(
   "h1",
-  {
+  { 
     id: "title",
   },
   "heading 1"
