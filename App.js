@@ -5,7 +5,7 @@ const heading1 = React.createElement(
   },
   "heading 1"
 );
-const heading2 = React.createElement(
+const heading2 = React.createElement( 
   "h2", 
   {
     id: "title",
