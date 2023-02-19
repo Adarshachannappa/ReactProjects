@@ -1,0 +1,49 @@
+# Anything which can be auto generated and anything which we can generate on server 
+
+# Node artifact files
+/node_modules
+/dist
+
+# Compiled Java class files
+*.class
+
+# Compiled python bytecode
+*.py[cod]
+
+# Log files
+.log
+
+# Package files
+.jar
+
+# Maven 
+target/
+dist/
+
+# Jetbrains IDE
+.idea/
+
+# Unit test reports
+TEST*.xml
+
+# Generate by MacOS
+.DS_Store
+
+# Generate by Windows
+Thumbs.db
+
+# Applications 
+*.app
+*.exe
+*.war
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# Auto generated
+.parcel-cache
