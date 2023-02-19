@@ -1,29 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const heading1 = React.createElement(
-  "h1",
-  { 
-    id: "title",
-  },
-  "heading 1"
-);
-const heading2 = React.createElement( 
-  "h2", 
-  {
-    id: "title",
-  },
-  "heading 2"
+//JSX
+const Title = ()=> (
+  <h1 id="title" key="heading">
+    Namaste React
+  </h1>
 );
 
-const container = React.createElement(
-  "div",
-  {
-    id: "container",
-  },
-  [heading1, heading2]
-);
+const HeaderComponent = () => {
+  return (
+    <div>
+      <Title />
+      <h1>This is from React functional component</h1>
+      <h1>Child element</h1>
+    </div>
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(container);
+root.render(<HeaderComponent />);
