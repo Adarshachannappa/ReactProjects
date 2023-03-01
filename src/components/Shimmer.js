@@ -1,5 +1,13 @@
 const Shimmer = () => {
-  return Array(10).fill(<div className="empty-cards"></div>);
+  return (
+    <div className="restaurant-list">
+      {Array(10)
+        .fill("")
+        .map((e, index) => (
+          <div key={index} className="shimmer-card"></div>
+        ))}
+    </div>
+  );
 };
 
 export default Shimmer;
